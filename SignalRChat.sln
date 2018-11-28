@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{8B4B185E-E6B6-42CC-BE5A-BBA4578BC1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSignalR", "ServerSignalR\ServerSignalR.csproj", "{B738BD5B-E340-4CB4-835F-FABBE5A128B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatWPF", "SignalRChatWPF\SignalRChatWPF.csproj", "{FC0A1636-C97F-4782-8139-9298FC7B86EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatTests", "SignalRChatTests\SignalRChatTests.csproj", "{A2A5B8D2-5968-419B-A309-61FF37038581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B4B185E-E6B6-42CC-BE5A-BBA4578BC1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4B185E-E6B6-42CC-BE5A-BBA4578BC1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4B185E-E6B6-42CC-BE5A-BBA4578BC1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4B185E-E6B6-42CC-BE5A-BBA4578BC1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B738BD5B-E340-4CB4-835F-FABBE5A128B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B738BD5B-E340-4CB4-835F-FABBE5A128B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B738BD5B-E340-4CB4-835F-FABBE5A128B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B738BD5B-E340-4CB4-835F-FABBE5A128B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0A1636-C97F-4782-8139-9298FC7B86EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0A1636-C97F-4782-8139-9298FC7B86EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0A1636-C97F-4782-8139-9298FC7B86EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0A1636-C97F-4782-8139-9298FC7B86EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A5B8D2-5968-419B-A309-61FF37038581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A5B8D2-5968-419B-A309-61FF37038581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A5B8D2-5968-419B-A309-61FF37038581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A5B8D2-5968-419B-A309-61FF37038581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0785902-2995-4E4C-A287-D5C9D6C355CD}
+	EndGlobalSection
+EndGlobal

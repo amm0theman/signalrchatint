@@ -1,0 +1,14 @@
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChatTests.deps.json
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChatTests.runtimeconfig.json
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChatTests.runtimeconfig.dev.json
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChatTests.dll
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.csproj.CoreCompileInputs.cache
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.AssemblyInfoInputs.cache
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.AssemblyInfo.cs
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChatTests.pdb
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.dll
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.pdb
