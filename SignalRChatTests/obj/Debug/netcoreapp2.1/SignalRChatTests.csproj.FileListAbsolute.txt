@@ -12,3 +12,7 @@ C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1
 C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChatTests.pdb
 C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.dll
 C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.pdb
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChat.dll
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\bin\Debug\netcoreapp2.1\SignalRChat.pdb
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.csprojAssemblyReference.cache
+C:\Users\amm0t\source\repos\SignalRChat\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.csproj.CopyComplete

@@ -4,8 +4,6 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Text;
-using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Threading;
 
@@ -16,14 +14,15 @@ namespace SignalRChat
         private ClientHubProxy clientHubProxy;
 
         string localuser;
-        ListCollectionView view;
-        ObservableCollection<string> chatLog;
-        ObservableCollection<string> users;
-        string chatMessageToSend;
+        Dispatcher UIDispatcher;
+        ObservableCollection<string> chatLog = new ObservableCollection<string>();
+        ObservableCollection<string> users = new ObservableCollection<string>();
+        string chatMessageToSend = "Enter message here!";
         string loginLog;
 
+        #region properties
         private ICommand _messageCommand;
-        public ICommand MessageCommand
+        public ICommand MessageCommand 
         {
             get
             {
@@ -128,35 +127,38 @@ namespace SignalRChat
                 NotifyPropertyChanged();
             }
         }
+        #endregion
 
-        public ChatVM()
+        public ChatVM(ClientHubProxy _clientHubProxy)
         {
-            chatLog = new ObservableCollection<string>();
-            users = new ObservableCollection<string>();
-            view = (ListCollectionView)CollectionViewSource.GetDefaultView(users);
-            chatMessageToSend = "Type Message Here";
+            //Needed to get UI dispatcher. would be great to abstract out and get handed the UI dispatcher through constructor injection
+            UIDispatcher = Dispatcher.CurrentDispatcher;
+
             //example and the one used in test: clientHubProxy = new ClientHubProxy("http://localhost:8080", "chat");
-            clientHubProxy = new ClientHubProxy("http://localhost:8080", "chat");
+            clientHubProxy = _clientHubProxy;
             clientHubProxy.startHub();
 
-            //Register events
+            //Register events and event handlers
             clientHubProxy.MessageReceived += receivedMessage;
             clientHubProxy.UsernameReceived += receivedUsername;
             clientHubProxy.LogReceived += receivedLog;
+
             MessageCommand = new SendCommand(new Action<object>((a) => sendMessage(LocalUser, ChatMessageToSend)));
             GetLogCommand = new SendCommand(new Action<object>((a) => getLog()));
 
+            //Login action so to speak
             setName();            
         }
 
+        #region events&eventhandlers
         public void receivedMessage(object sender, MessageEventArgs e)
         {
-            view.Dispatcher.Invoke(new Action(() => chatLog.Add(e.User + ": " +e.Message)));
+            UIDispatcher.Invoke(new Action(() => chatLog.Add(e.User + ": " +e.Message)));
         }
 
         public void receivedUsername(object sender, MessageEventArgs e)
         {
-            view.Dispatcher.Invoke(new Action(() => Users.Add(e.User)));
+            UIDispatcher.Invoke(new Action(() => Users.Add(e.User)));
             LocalUser = e.User;
             sendMessage("ChatBot |O_O|", "User " + LocalUser + "has connected");
         }
@@ -180,6 +182,7 @@ namespace SignalRChat
         {
             clientHubProxy.setName();
         }
+        #endregion
 
         #region dataValidation
         private ConcurrentDictionary<string, List<string>> _errors = new ConcurrentDictionary<string, List<string>>();

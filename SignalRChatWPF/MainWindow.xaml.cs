@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using SignalRChat;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -22,6 +23,8 @@ namespace SignalRChatWPF
     {
         public MainWindow()
         {
+            ChatVM chatVM = new ChatVM(new ClientHubProxy("http://localhost:8080", "chat"));
+            this.DataContext = chatVM;
             InitializeComponent();
         }
     }

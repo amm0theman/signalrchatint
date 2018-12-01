@@ -12,6 +12,7 @@
           "Microsoft.NET.Test.Sdk": "15.8.0",
           "Moq": "4.10.0",
           "NUnit3TestAdapter": "3.10.0",
+          "SignalRChat": "1.0.0",
           "NUnit": "3.10.1"
         },
         "runtime": {
@@ -1025,6 +1026,14 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "SignalRChat/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Client": "2.4.0"
+        },
+        "runtime": {
+          "SignalRChat.dll": {}
+        }
       }
     }
   },
@@ -1544,6 +1553,11 @@
       "sha512": "sha512-91tvfHWHSrYFPolCwWYqbpo1YaoBUCQ3uNZ/O/zr0ev5BnkoATJoie16ywlMVUaXZtfSfNELxhtG3aqpTfwR4w==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "SignalRChat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
