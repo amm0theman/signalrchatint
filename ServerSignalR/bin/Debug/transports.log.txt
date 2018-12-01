@@ -2279,3 +2279,164 @@ SignalR.Transports.WebSocketTransport Error: 0 : OnError(c9bb234c-4fa4-4acd-8648
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__25.MoveNext())
 SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(c9bb234c-4fa4-4acd-8648-c5f81cd00a6d)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection c7864843-5302-4386-a120-a334e8d2e9bc is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,0|C,0|D,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,1|C,0|D,1","M":[{"H":"chat","M":"receivedUsername","A":["c7864843-5302-4386-a120-a334e8d2e9bc"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,2|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User c7864843-5302-4386-a120-a334e8d2e9bchas connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"I":"1"}
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 195ef024-ab17-4c91-9612-759b29315b47 is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 195ef024-ab17-4c91-9612-759b29315b47, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,2|E,0|F,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,3|C,0|D,1","M":[{"H":"chat","M":"receivedUsername","A":["195ef024-ab17-4c91-9612-759b29315b47"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,4|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User 195ef024-ab17-4c91-9612-759b29315b47has connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,5|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User 195ef024-ab17-4c91-9612-759b29315b47has connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c7864843-5302-4386-a120-a334e8d2e9bc, transport: WebSocketTransport, message: {"I":"2"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 195ef024-ab17-4c91-9612-759b29315b47, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,3|E,0|F,1","M":[{"H":"chat","M":"receivedUsername","A":["195ef024-ab17-4c91-9612-759b29315b47"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 195ef024-ab17-4c91-9612-759b29315b47, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 195ef024-ab17-4c91-9612-759b29315b47, transport: WebSocketTransport, message: {"I":"1"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 195ef024-ab17-4c91-9612-759b29315b47, transport: WebSocketTransport, message: {"C":"d-906CEAFC-B,5|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User 195ef024-ab17-4c91-9612-759b29315b47has connected"]},{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User 195ef024-ab17-4c91-9612-759b29315b47has connected"]}]}
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.WebSocketTransport Error: 0 : OnError(c7864843-5302-4386-a120-a334e8d2e9bc, System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketHttpListenerDuplexStream.<ReadAsyncCore>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__25.MoveNext())
+SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(c7864843-5302-4386-a120-a334e8d2e9bc)
+SignalR.Transports.WebSocketTransport Error: 0 : OnError(195ef024-ab17-4c91-9612-759b29315b47, System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketHttpListenerDuplexStream.<ReadAsyncCore>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__25.MoveNext())
+SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(195ef024-ab17-4c91-9612-759b29315b47)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 3305678a-17d7-49d6-aeee-5add57166ee4 is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,0|C,0|D,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,1|C,0|D,1","M":[{"H":"chat","M":"receivedUsername","A":["3305678a-17d7-49d6-aeee-5add57166ee4"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,2|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User 3305678a-17d7-49d6-aeee-5add57166ee4has connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"I":"1"}
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection f0dd130a-5e71-4423-8e35-d2a753732bb0 is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: f0dd130a-5e71-4423-8e35-d2a753732bb0, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,2|E,0|F,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: f0dd130a-5e71-4423-8e35-d2a753732bb0, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,3|E,0|F,1","M":[{"H":"chat","M":"receivedUsername","A":["f0dd130a-5e71-4423-8e35-d2a753732bb0"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: f0dd130a-5e71-4423-8e35-d2a753732bb0, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: f0dd130a-5e71-4423-8e35-d2a753732bb0, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,4|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User f0dd130a-5e71-4423-8e35-d2a753732bb0has connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: f0dd130a-5e71-4423-8e35-d2a753732bb0, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,5|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User f0dd130a-5e71-4423-8e35-d2a753732bb0has connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,3|C,0|D,1","M":[{"H":"chat","M":"receivedUsername","A":["f0dd130a-5e71-4423-8e35-d2a753732bb0"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"C":"d-99E31BD1-B,5|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User f0dd130a-5e71-4423-8e35-d2a753732bb0has connected"]},{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User f0dd130a-5e71-4423-8e35-d2a753732bb0has connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 3305678a-17d7-49d6-aeee-5add57166ee4, transport: WebSocketTransport, message: {"I":"2"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: f0dd130a-5e71-4423-8e35-d2a753732bb0, transport: WebSocketTransport, message: {"I":"1"}
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(3305678a-17d7-49d6-aeee-5add57166ee4)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(f0dd130a-5e71-4423-8e35-d2a753732bb0)

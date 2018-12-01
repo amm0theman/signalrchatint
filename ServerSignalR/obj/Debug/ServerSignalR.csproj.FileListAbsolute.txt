@@ -24,3 +24,4 @@ C:\Users\amm0t\source\repos\SignalRChat\ServerSignalR\obj\Debug\ServerSignalR.cs
 C:\Users\amm0t\source\repos\SignalRChat\ServerSignalR\obj\Debug\ServerSignalR.csproj.CopyComplete
 C:\Users\amm0t\source\repos\SignalRChat\ServerSignalR\obj\Debug\ServerSignalR.exe
 C:\Users\amm0t\source\repos\SignalRChat\ServerSignalR\obj\Debug\ServerSignalR.pdb
+C:\Users\amm0t\source\repos\signalrchat\ServerSignalR\obj\Debug\ServerSignalR.csprojAssemblyReference.cache

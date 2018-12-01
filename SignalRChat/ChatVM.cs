@@ -10,7 +10,7 @@ namespace SignalRChat
 {
     public class ChatVM : ViewModelBase, INotifyDataErrorInfo
     {
-        private ClientHubProxy clientHubProxy;
+        private IClientHubProxy clientHubProxy;
 
         string localuser;
         IDispatcher UIDispatcher;
@@ -58,6 +58,14 @@ namespace SignalRChat
                     return;
                 localuser = value;
                 NotifyPropertyChanged();
+            }
+        }
+
+        public IDispatcher Dispatcher
+        {
+            get
+            {
+                return UIDispatcher;
             }
         }
 
@@ -128,7 +136,7 @@ namespace SignalRChat
         }
         #endregion
 
-        public ChatVM(ClientHubProxy _clientHubProxy, IDispatcher Dispatcher)
+        public ChatVM(IClientHubProxy _clientHubProxy, IDispatcher Dispatcher)
         {
             //Needed to get UI dispatcher. would be great to abstract out and get handed the UI dispatcher through constructor injection
             UIDispatcher = Dispatcher;
@@ -201,7 +209,7 @@ namespace SignalRChat
         public bool isChatValid(string value)
         {
             bool isValid = true;
-            if (value.Contains("shit") | value.Contains("fuck") | value.Contains("damn") | value.Contains("bitch"))
+            if (value.Contains("shit") | value.Contains("fuck") | value.Contains("damn") | value.Contains("bitch") | value.Contains("Shit") | value.Contains("Fuck") | value.Contains("Damn") | value.Contains("Bitch"))
             {
                 AddError("ChatMessageToSend", MESSAGE_ERROR, false);
                 return isValid = false;
