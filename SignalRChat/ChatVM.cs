@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
-using System.Windows.Threading;
 
 namespace SignalRChat
 {
@@ -14,7 +13,7 @@ namespace SignalRChat
         private ClientHubProxy clientHubProxy;
 
         string localuser;
-        Dispatcher UIDispatcher;
+        IDispatcher UIDispatcher;
         ObservableCollection<string> chatLog = new ObservableCollection<string>();
         ObservableCollection<string> users = new ObservableCollection<string>();
         string chatMessageToSend = "Enter message here!";
@@ -129,10 +128,10 @@ namespace SignalRChat
         }
         #endregion
 
-        public ChatVM(ClientHubProxy _clientHubProxy)
+        public ChatVM(ClientHubProxy _clientHubProxy, IDispatcher Dispatcher)
         {
             //Needed to get UI dispatcher. would be great to abstract out and get handed the UI dispatcher through constructor injection
-            UIDispatcher = Dispatcher.CurrentDispatcher;
+            UIDispatcher = Dispatcher;
 
             //example and the one used in test: clientHubProxy = new ClientHubProxy("http://localhost:8080", "chat");
             clientHubProxy = _clientHubProxy;
@@ -240,5 +239,10 @@ namespace SignalRChat
             ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs(propertyName));
         }
         #endregion
+    }
+
+    public interface IDispatcher
+    {
+        void Invoke(Action a);
     }
 }

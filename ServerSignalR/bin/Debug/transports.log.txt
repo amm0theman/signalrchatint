@@ -2089,3 +2089,193 @@ SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-
 SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
 SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
 SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(d0baece5-6b1a-40c4-998f-109df6fb42d7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b2febd69-aedf-488e-9f50-d1fcb352ade9)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection b52293b7-187a-4df4-8dbf-574d67e6586c is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,0|C,0|D,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,1|C,0|D,1","M":[{"H":"chat","M":"receivedUsername","A":["b52293b7-187a-4df4-8dbf-574d67e6586c"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,2|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User b52293b7-187a-4df4-8dbf-574d67e6586chas connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"1"}
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b52293b7-187a-4df4-8dbf-574d67e6586c)
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,3|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["b52293b7-187a-4df4-8dbf-574d67e6586c","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"2"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,4|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["b52293b7-187a-4df4-8dbf-574d67e6586c","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"3"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,5|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["b52293b7-187a-4df4-8dbf-574d67e6586c","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"4"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,6|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["b52293b7-187a-4df4-8dbf-574d67e6586c","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"5"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,7|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["b52293b7-187a-4df4-8dbf-574d67e6586c","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"6"}
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b52293b7-187a-4df4-8dbf-574d67e6586c)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection c9bb234c-4fa4-4acd-8648-c5f81cd00a6d is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,7|E,0|F,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,8|C,0|D,1","M":[{"H":"chat","M":"receivedUsername","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,8|E,0|F,1","M":[{"H":"chat","M":"receivedUsername","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,9|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User c9bb234c-4fa4-4acd-8648-c5f81cd00a6dhas connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,9|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User c9bb234c-4fa4-4acd-8648-c5f81cd00a6dhas connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"7"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,A|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User c9bb234c-4fa4-4acd-8648-c5f81cd00a6dhas connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,A|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["ChatBot |O_O|","User c9bb234c-4fa4-4acd-8648-c5f81cd00a6dhas connected"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"1"}
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(c9bb234c-4fa4-4acd-8648-c5f81cd00a6d)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b52293b7-187a-4df4-8dbf-574d67e6586c)
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,B|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,B|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"2"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,C|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,C|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"3"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,D|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,D|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"4"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,E|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,E|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"5"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,F|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,F|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"6"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,10|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,10|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"7"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,11|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,11|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"8"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,12|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,12|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"9"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,13|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,13|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"I":"10"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,14|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,14|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"8"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,15|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,15|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"9"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,16|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,16|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"10"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,17|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,17|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"11"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,18|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,18|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"12"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,19|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,19|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"13"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,1A|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,1A|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"14"}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,1B|E,0|F,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"C":"d-E376F6CB-B,1B|C,0|D,1","M":[{"H":"chat","M":"receivedMessage","A":["c9bb234c-4fa4-4acd-8648-c5f81cd00a6d","Enter message here!"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: b52293b7-187a-4df4-8dbf-574d67e6586c, transport: WebSocketTransport, message: {"I":"15"}
+SignalR.Transports.WebSocketTransport Error: 0 : OnError(b52293b7-187a-4df4-8dbf-574d67e6586c, System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketHttpListenerDuplexStream.<ReadAsyncCore>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__25.MoveNext())
+SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(b52293b7-187a-4df4-8dbf-574d67e6586c)
+SignalR.Transports.WebSocketTransport Error: 0 : OnError(c9bb234c-4fa4-4acd-8648-c5f81cd00a6d, System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketHttpListenerDuplexStream.<ReadAsyncCore>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__25.MoveNext())
+SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(c9bb234c-4fa4-4acd-8648-c5f81cd00a6d)

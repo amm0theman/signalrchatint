@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace SignalRChatWPF
 {
@@ -23,9 +24,25 @@ namespace SignalRChatWPF
     {
         public MainWindow()
         {
-            ChatVM chatVM = new ChatVM(new ClientHubProxy("http://localhost:8080", "chat"));
+            AbstractDispatcher abstractDispatcher = new AbstractDispatcher(this.Dispatcher);
+            ChatVM chatVM = new ChatVM(new ClientHubProxy("http://localhost:8080", "chat"), abstractDispatcher);
             this.DataContext = chatVM;
             InitializeComponent();
+        }
+
+        public class AbstractDispatcher : IDispatcher
+        {
+            Dispatcher dispatcher;
+
+            public AbstractDispatcher(Dispatcher _dispatcher)
+            {
+                dispatcher = _dispatcher;
+            }
+
+            public void Invoke(Action a)
+            {
+                dispatcher.Invoke(a);
+            }
         }
     }
 }
