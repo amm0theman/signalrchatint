@@ -5,7 +5,29 @@
         <Style.Triggers>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="ToolTip" Value="{Binding Path=(Validation.Errors)[0].ErrorContent, RelativeSource={x:Static RelativeSource.Self}}" />
+                <Setter Property="Foreground" Value="LightGreen"></Setter>
+                <Setter Property="Background" Value="LightGreen"></Setter>
             </Trigger>
         </Style.Triggers>
     </Style>
+    
+    <Style TargetType="{x:Type TextBox}" x:Key="HackerBox">
+        <Setter Property="Foreground" Value="LightGreen"></Setter>
+        <Setter Property="Background" Value="Black"></Setter>
+    </Style>
+
+    <Style TargetType="{x:Type Label}" x:Key="HackerLabel">
+        <Setter Property="Foreground" Value="LightGreen"></Setter>
+        <Setter Property="Background" Value="Black"></Setter>
+    </Style>
+
+    <Style TargetType="{x:Type Button}" x:Key="Buttons">
+        <Setter Property="Foreground" Value="LightGreen"></Setter>
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="BorderBrush" Value="LightGreen"></Setter>
+    </Style>
+
+    <DataTemplate x:Key="hackerText">
+        <TextBlock Foreground="LightGreen"/>
+    </DataTemplate>
 </ResourceDictionary>

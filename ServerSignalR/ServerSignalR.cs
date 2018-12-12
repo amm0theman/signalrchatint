@@ -4,14 +4,16 @@ using Microsoft.Owin.Hosting;
 using Owin;
 using Microsoft.Owin.Cors;
 using Microsoft.Owin;
+using System.Collections.ObjectModel;
 
 [assembly: OwinStartup(typeof(ServerSignalR.Startup))]
 
 namespace ServerSignalR
 {
-    class ServerSignalR
+    public class ServerSignalR
     {
-        static void Main(string[] args)
+        //Public for testing, idk if there is a better way to do this
+        public static void Main(string[] args)
         {
             // This will *ONLY* bind to localhost, if you want to bind to all addresses
             // use http://*:8080 to bind to all addresses. 
@@ -25,13 +27,21 @@ namespace ServerSignalR
             }
         }
     }
-    class Startup
+    public class Startup
     {
+        public ObservableCollection<string> connectedUsers = new ObservableCollection<string>();
+        public ObservableCollection<string> chatLog = new ObservableCollection<string>();
+
         public void Configuration(IAppBuilder app)
         {
             app.UseCors(CorsOptions.AllowAll);
             app.Properties["host.AppMode"] = "development";
             app.UseErrorPage(new Microsoft.Owin.Diagnostics.ErrorPageOptions { ShowExceptionDetails = true });
+            //Register deps.
+            GlobalHost.DependencyResolver.Register(
+                typeof(ChatHub),
+                () => new ChatHub(ref connectedUsers, ref chatLog));
+
             var hubConfiguration = new HubConfiguration
             {
                 EnableJSONP = true,

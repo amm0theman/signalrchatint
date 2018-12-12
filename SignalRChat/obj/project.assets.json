@@ -260,11 +260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChat\\SignalRChat.csproj",
+      "projectUniqueName": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj",
       "projectName": "SignalRChat",
-      "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChat\\SignalRChat.csproj",
+      "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj",
       "packagesPath": "C:\\Users\\amm0t\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChat\\obj\\",
+      "outputPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

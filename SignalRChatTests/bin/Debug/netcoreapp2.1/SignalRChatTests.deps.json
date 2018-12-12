@@ -12,7 +12,9 @@
           "Microsoft.NET.Test.Sdk": "15.8.0",
           "Moq": "4.10.0",
           "NUnit3TestAdapter": "3.10.0",
+          "ServerSignalR": "1.0.0",
           "SignalRChat": "1.0.0",
+          "SignalRChatWPF": "1.0.0",
           "NUnit": "3.10.1"
         },
         "runtime": {
@@ -1027,12 +1029,99 @@
           }
         }
       },
+      "ServerSignalR/1.0.0": {
+        "dependencies": {
+          "Microsoft.Owin": "4.0.0.0",
+          "Microsoft.AspNet.SignalR.Core": "2.4.0.0",
+          "Owin": "1.0.0.0",
+          "Microsoft.Owin.Hosting": "2.1.0.0",
+          "Microsoft.Owin.Cors": "4.0.0.0",
+          "Microsoft.Owin.Diagnostics": "2.1.0.0",
+          "Microsoft.Owin.Security": "2.1.0.0",
+          "System.Web.Cors": "5.0.0.0"
+        },
+        "runtime": {
+          "ServerSignalR.exe": {}
+        }
+      },
       "SignalRChat/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.SignalR.Client": "2.4.0"
         },
         "runtime": {
           "SignalRChat.dll": {}
+        }
+      },
+      "SignalRChatWPF/1.0.0": {
+        "dependencies": {
+          "SignalRChat": "1.0.0"
+        },
+        "runtime": {
+          "SignalRChatWPF.exe": {}
+        }
+      },
+      "Microsoft.Owin.Reference/4.0.0.0": {
+        "runtime": {
+          "Microsoft.Owin.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.4677.103"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core.Reference/2.4.0.0": {
+        "runtime": {
+          "Microsoft.AspNet.SignalR.Core.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.18317"
+          }
+        }
+      },
+      "Owin.Reference/1.0.0.0": {
+        "runtime": {
+          "Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Owin.Hosting.Reference/2.1.0.0": {
+        "runtime": {
+          "Microsoft.Owin.Hosting.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        }
+      },
+      "Microsoft.Owin.Cors.Reference/4.0.0.0": {
+        "runtime": {
+          "Microsoft.Owin.Cors.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.4677.103"
+          }
+        }
+      },
+      "Microsoft.Owin.Diagnostics.Reference/2.1.0.0": {
+        "runtime": {
+          "Microsoft.Owin.Diagnostics.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        }
+      },
+      "Microsoft.Owin.Security.Reference/2.1.0.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        }
+      },
+      "System.Web.Cors.Reference/5.0.0.0": {
+        "runtime": {
+          "System.Web.Cors.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.11001.0"
+          }
         }
       }
     }
@@ -1554,8 +1643,58 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
+    "ServerSignalR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SignalRChat/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SignalRChatWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Reference/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.SignalR.Core.Reference/2.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Owin.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Hosting.Reference/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Cors.Reference/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Diagnostics.Reference/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security.Reference/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Cors.Reference/5.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

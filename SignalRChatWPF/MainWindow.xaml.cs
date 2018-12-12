@@ -22,10 +22,12 @@ namespace SignalRChatWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        public ChatVM chatVM;
+
         public MainWindow()
         {
             AbstractDispatcher abstractDispatcher = new AbstractDispatcher(this.Dispatcher);
-            ChatVM chatVM = new ChatVM(new ClientHubProxy("http://localhost:8080", "chat"), abstractDispatcher);
+            chatVM = new ChatVM(new ClientHubProxy("http://localhost:8080", "chat"), abstractDispatcher);
             this.DataContext = chatVM;
             InitializeComponent();
         }
@@ -43,6 +45,16 @@ namespace SignalRChatWPF
             {
                 dispatcher.Invoke(a);
             }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            chatVM.CloseConnection();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            chatVM.ChatMessageToSend = "";
         }
     }
 }

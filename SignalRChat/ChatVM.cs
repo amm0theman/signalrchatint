@@ -17,7 +17,7 @@ namespace SignalRChat
         ObservableCollection<string> chatLog = new ObservableCollection<string>();
         ObservableCollection<string> users = new ObservableCollection<string>();
         string chatMessageToSend = "Enter message here!";
-        string loginLog;
+        ObservableCollection<string> loginLog = new ObservableCollection<string>();
 
         #region properties
         private ICommand _messageCommand;
@@ -119,7 +119,7 @@ namespace SignalRChat
             }
         }
 
-        public string LoginLog
+        public ObservableCollection<string> LoginLog
         {
             get
             {
@@ -149,12 +149,20 @@ namespace SignalRChat
             clientHubProxy.MessageReceived += receivedMessage;
             clientHubProxy.UsernameReceived += receivedUsername;
             clientHubProxy.LogReceived += receivedLog;
+            clientHubProxy.UsernamesReceived += receivedUsernames;
+            clientHubProxy.LocalUsernameReceived += receivedLocalUser;
+            clientHubProxy.UsernameReceivedDisconnect += removeUser;
 
             MessageCommand = new SendCommand(new Action<object>((a) => sendMessage(LocalUser, ChatMessageToSend)));
             GetLogCommand = new SendCommand(new Action<object>((a) => getLog()));
 
             //Login action so to speak
             setName();            
+        }
+
+        public void CloseConnection()
+        {
+            clientHubProxy.CloseConnection();
         }
 
         #region events&eventhandlers
@@ -166,13 +174,36 @@ namespace SignalRChat
         public void receivedUsername(object sender, MessageEventArgs e)
         {
             UIDispatcher.Invoke(new Action(() => Users.Add(e.User)));
-            LocalUser = e.User;
-            sendMessage("ChatBot |O_O|", "User " + LocalUser + "has connected");
+            UIDispatcher.Invoke(new Action(() => chatLog.Add(e.User + ": " + "Connected")));
+        }
+
+        public void removeUser(object sender, MessageEventArgs e)
+        {
+            UIDispatcher.Invoke(new Action(() => Users.Remove(e.User)));
+        }
+
+        public void receivedUsernames(object sender, UsersArgs e)
+        {
+            UIDispatcher.Invoke(new Action(() =>
+            {
+                foreach (var username in e.Users)
+                    Users.Add(username);
+            }));
         }
 
         public void receivedLog(object sender, LogEventArgs e)
         {
-            loginLog = e.Log;
+            UIDispatcher.Invoke(new Action(() =>
+            {
+                foreach (var message in e.Log)
+                    LoginLog.Add(message);
+            }));
+
+        }
+
+        public void receivedLocalUser(object sender, MessageEventArgs e)
+        {
+            LocalUser = e.User;
         }
 
         public void getLog()
@@ -185,7 +216,7 @@ namespace SignalRChat
             clientHubProxy.sendMessage(user, message);
         }
 
-        private void setName()
+        public void setName()
         {
             clientHubProxy.setName();
         }

@@ -1639,6 +1639,15 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "ServerSignalR/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ServerSignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServerSignalR.dll": {}
+        }
+      },
       "SignalRChat/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1650,6 +1659,18 @@
         },
         "runtime": {
           "bin/placeholder/SignalRChat.dll": {}
+        }
+      },
+      "SignalRChatWPF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SignalRChat": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SignalRChatWPF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalRChatWPF.dll": {}
         }
       }
     }
@@ -5768,10 +5789,20 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "ServerSignalR/1.0.0": {
+      "type": "project",
+      "path": "../ServerSignalR/ServerSignalR.csproj",
+      "msbuildProject": "../ServerSignalR/ServerSignalR.csproj"
+    },
     "SignalRChat/1.0.0": {
       "type": "project",
       "path": "../SignalRChat/SignalRChat.csproj",
       "msbuildProject": "../SignalRChat/SignalRChat.csproj"
+    },
+    "SignalRChatWPF/1.0.0": {
+      "type": "project",
+      "path": "../SignalRChatWPF/SignalRChatWPF.csproj",
+      "msbuildProject": "../SignalRChatWPF/SignalRChatWPF.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5781,7 +5812,9 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "Moq >= 4.10.0",
       "NUnit3TestAdapter >= 3.10.0",
+      "ServerSignalR >= 1.0.0",
       "SignalRChat >= 1.0.0",
+      "SignalRChatWPF >= 1.0.0",
       "nunit >= 3.10.1"
     ]
   },
@@ -5792,11 +5825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChatTests\\SignalRChatTests.csproj",
+      "projectUniqueName": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChatTests\\SignalRChatTests.csproj",
       "projectName": "SignalRChatTests",
-      "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChatTests\\SignalRChatTests.csproj",
+      "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChatTests\\SignalRChatTests.csproj",
       "packagesPath": "C:\\Users\\amm0t\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChatTests\\obj\\",
+      "outputPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChatTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5815,8 +5848,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChat\\SignalRChat.csproj": {
-              "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchat\\SignalRChat\\SignalRChat.csproj"
+            "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\ServerSignalR\\ServerSignalR.csproj": {
+              "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\ServerSignalR\\ServerSignalR.csproj"
+            },
+            "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChatWPF\\SignalRChatWPF.csproj": {
+              "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChatWPF\\SignalRChatWPF.csproj"
+            },
+            "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj": {
+              "projectPath": "C:\\Users\\amm0t\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj"
             }
           }
         }
