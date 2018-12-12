@@ -168,7 +168,7 @@ namespace SignalRChat
         #region events&eventhandlers
         public void receivedMessage(object sender, MessageEventArgs e)
         {
-            UIDispatcher.Invoke(new Action(() => chatLog.Add(e.User + ": " +e.Message)));
+            UIDispatcher.Invoke(new Action(() => chatLog.Add(e.User + ": " + e.Message)));
         }
 
         public void receivedUsername(object sender, MessageEventArgs e)

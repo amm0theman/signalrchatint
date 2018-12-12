@@ -32,6 +32,7 @@ namespace ServerSignalR
         {
             Clients.All.receivedMessage(Context.ConnectionId, " has disconnected");
             Clients.All.receivedUsernameDisconnect(Context.ConnectionId);
+            connectedUsers.Remove(Context.ConnectionId);
             chatLog.Add(Context.ConnectionId + " has disconnected");
             return base.OnDisconnected(stopCalled);
         }
