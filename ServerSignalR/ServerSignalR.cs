@@ -37,7 +37,8 @@ namespace ServerSignalR
             app.UseCors(CorsOptions.AllowAll);
             app.Properties["host.AppMode"] = "development";
             app.UseErrorPage(new Microsoft.Owin.Diagnostics.ErrorPageOptions { ShowExceptionDetails = true });
-            //Register deps.
+
+            //Register dependencies
             GlobalHost.DependencyResolver.Register(
                 typeof(ChatHub),
                 () => new ChatHub(ref connectedUsers, ref chatLog));

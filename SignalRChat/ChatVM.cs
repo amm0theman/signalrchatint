@@ -16,7 +16,7 @@ namespace SignalRChat
         IDispatcher UIDispatcher;
         ObservableCollection<string> chatLog = new ObservableCollection<string>();
         ObservableCollection<string> users = new ObservableCollection<string>();
-        string chatMessageToSend = "Enter message here!";
+        string chatMessageToSend = "";
         ObservableCollection<string> loginLog = new ObservableCollection<string>();
 
         #region properties
