@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace SignalRChat
 {
-    public class ViewModelBase
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
         protected void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
