@@ -56,6 +56,7 @@ namespace ServerSignalR
         //When they send a message
         public void sendMessage(string user, string message)
         {
+            // TODO: Validate Message
             Clients.All.receivedMessage(user, message);
             chatLog.Add(user + ": " + message);
         }

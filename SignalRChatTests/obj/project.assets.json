@@ -23,7 +23,7 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
-      "Microsoft.AspNet.SignalR.Client/2.4.0": {
+      "Microsoft.AspNet.SignalR.Client/2.4.1": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2"
@@ -1652,7 +1652,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.AspNet.SignalR.Client": "2.4.0"
+          "Microsoft.AspNet.SignalR.Client": "2.4.1"
         },
         "compile": {
           "bin/placeholder/SignalRChat.dll": {}
@@ -1701,10 +1701,10 @@
         "readme.txt"
       ]
     },
-    "Microsoft.AspNet.SignalR.Client/2.4.0": {
-      "sha512": "xGoQq9dEsBU49U1Whl0To2JyRQePmo8ayYS8VNruLlQaX+fQBzYyLJeMlW9r7mlt8Vc9JP+083m9pKrfYpdDbg==",
+    "Microsoft.AspNet.SignalR.Client/2.4.1": {
+      "sha512": "x5Bc1LkjBZV9GEjflBF0zsKgXbpFkTAArQMAdbhKKC1MopLaFPUYQZrCAPgGSAW8OudHGhyEfMZ5vJbdBu8IsA==",
       "type": "package",
-      "path": "microsoft.aspnet.signalr.client/2.4.0",
+      "path": "microsoft.aspnet.signalr.client/2.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1720,7 +1720,7 @@
         "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
         "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.pdb",
         "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.xml",
-        "microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
+        "microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
         "microsoft.aspnet.signalr.client.nuspec"
       ]
     },
@@ -5808,7 +5808,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.AspNet.SignalR.Client >= 2.4.0",
+      "Microsoft.AspNet.SignalR.Client >= 2.4.1",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Moq >= 4.10.0",
@@ -5872,7 +5872,7 @@
         "dependencies": {
           "Microsoft.AspNet.SignalR.Client": {
             "target": "Package",
-            "version": "[2.4.0, )"
+            "version": "[2.4.1, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

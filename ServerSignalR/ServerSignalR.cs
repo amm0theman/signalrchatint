@@ -5,6 +5,7 @@ using Owin;
 using Microsoft.Owin.Cors;
 using Microsoft.Owin;
 using System.Collections.ObjectModel;
+using SignalRChat.Entities.Validation;
 
 [assembly: OwinStartup(typeof(ServerSignalR.Startup))]
 
@@ -29,6 +30,7 @@ namespace ServerSignalR
     }
     public class Startup
     {
+        //Globals for the program. These are bad and will be removed when database is added. TODO: Add database remove these lines
         public ObservableCollection<string> connectedUsers = new ObservableCollection<string>();
         public ObservableCollection<string> chatLog = new ObservableCollection<string>();
 
@@ -42,6 +44,10 @@ namespace ServerSignalR
             GlobalHost.DependencyResolver.Register(
                 typeof(ChatHub),
                 () => new ChatHub(ref connectedUsers, ref chatLog));
+
+            GlobalHost.DependencyResolver.Register(
+                typeof(DataValidator),
+                () => new DataValidator());
 
             var hubConfiguration = new HubConfiguration
             {
