@@ -341,12 +341,9 @@ C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\System
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\System.Xml.XPath.dll
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\SignalRChat.dll
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\SignalRChat.pdb
-C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
-C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\obj\Debug\SignalRChatWPF.csprojAssemblyReference.cache
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\obj\Debug\SignalRChatWPF.exe.config
@@ -364,3 +361,6 @@ C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\obj\Debug\Signal
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\obj\Debug\SignalRChatWPF.csproj.CopyComplete
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\obj\Debug\SignalRChatWPF.exe
 C:\Users\ammon.riley\Source\Repos\signalrchatint\SignalRChatWPF\obj\Debug\SignalRChatWPF.pdb
+C:\Users\ammon.riley\source\repos\signalrchatint\SignalRChatWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\ammon.riley\source\repos\signalrchatint\SignalRChatWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+C:\Users\ammon.riley\source\repos\signalrchatint\SignalRChatWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.xml

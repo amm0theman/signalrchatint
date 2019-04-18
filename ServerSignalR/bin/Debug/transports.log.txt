@@ -5741,3 +5741,15 @@ SignalR.Transports.WebSocketTransport Information: 0 : End(80b31244-cc50-4b67-9e
 SignalR.Transports.WebSocketTransport Verbose: 0 : DrainWrites(80b31244-cc50-4b67-9e06-b914b5a807f7)
 SignalR.Transports.WebSocketTransport Information: 0 : CompleteRequest (80b31244-cc50-4b67-9e06-b914b5a807f7)
 SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(80b31244-cc50-4b67-9e06-b914b5a807f7)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 10b7b710-9393-4b11-8eb4-ac22eb3aef25 is New.
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 10b7b710-9393-4b11-8eb4-ac22eb3aef25, transport: WebSocketTransport, message: {"C":"d-F70DDBFD-B,0|C,0|D,1","S":1,"M":[]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 10b7b710-9393-4b11-8eb4-ac22eb3aef25, transport: WebSocketTransport, message: {"C":"d-F70DDBFD-B,0|C,1|D,1","M":[{"H":"chat","M":"receivedLocalUsername","A":["10b7b710-9393-4b11-8eb4-ac22eb3aef25"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 10b7b710-9393-4b11-8eb4-ac22eb3aef25, transport: WebSocketTransport, message: {"C":"d-F70DDBFD-B,0|C,2|D,1","M":[{"H":"chat","M":"receivedUsernames","A":[[]]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 10b7b710-9393-4b11-8eb4-ac22eb3aef25, transport: WebSocketTransport, message: {"C":"d-F70DDBFD-B,1|C,2|D,1","M":[{"H":"chat","M":"receivedUsername","A":["10b7b710-9393-4b11-8eb4-ac22eb3aef25"]}]}
+SignalR.Transports.WebSocketTransport Verbose: 0 : Sending outgoing message. Connection id: 10b7b710-9393-4b11-8eb4-ac22eb3aef25, transport: WebSocketTransport, message: {"I":"0"}
+SignalR.Transports.WebSocketTransport Information: 0 : Abort(10b7b710-9393-4b11-8eb4-ac22eb3aef25)
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 10b7b710-9393-4b11-8eb4-ac22eb3aef25
+SignalR.Transports.WebSocketTransport Information: 0 : End(10b7b710-9393-4b11-8eb4-ac22eb3aef25)
+SignalR.Transports.WebSocketTransport Verbose: 0 : DrainWrites(10b7b710-9393-4b11-8eb4-ac22eb3aef25)
+SignalR.Transports.WebSocketTransport Information: 0 : CompleteRequest (10b7b710-9393-4b11-8eb4-ac22eb3aef25)
+SignalR.Transports.WebSocketTransport Information: 0 : CloseSocket(10b7b710-9393-4b11-8eb4-ac22eb3aef25)
