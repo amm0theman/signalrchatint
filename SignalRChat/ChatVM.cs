@@ -214,6 +214,7 @@ namespace SignalRChat
         public void sendMessage(string user, string message)
         {
             clientHubProxy.sendMessage(user, message);
+            ChatMessageToSend = "";
         }
 
         public void setName()
