@@ -6,6 +6,8 @@ using NUnit.Compatibility;
 using NUnit.Framework;
 using Moq;
 using SignalRChat;
+using ServerSignalR;
+using System.Data.SqlClient;
 
 namespace SignalRChatTests
 {
@@ -33,6 +35,7 @@ namespace SignalRChatTests
         Mock<IDispatcher> dispatcher;
         Mock<IClientHubProxy> hubproxy;
         ChatVM chatVM;
+        CreateUser u = new CreateUser();
 
         [SetUp]
         public void SetUp()
@@ -117,6 +120,12 @@ namespace SignalRChatTests
         public void userRemovedFromListOnDisconnect()
         {
 
+        }
+
+        [Test]
+        public void addUserTest()
+        {
+            u.Add_User("hi", "there");
         }
     }
 }
