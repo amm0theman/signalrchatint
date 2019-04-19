@@ -38,7 +38,7 @@
         <Label Style="{StaticResource HackerLabel}" Grid.Column="1" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="125,184,332,178" RenderTransformOrigin="0.646,2.517" Content="Password" Grid.Row="1" Width="114"/>
         <TextBox Style="{StaticResource ResourceKey=HackerBox}" BorderBrush="LightGreen" Background="Black" Grid.Column="1" Margin="125,208,332,146" Grid.Row="1" />
         <!-- Sign up button -->
-        <Button Style="{StaticResource Buttons}" BorderBrush="LightGreen" Grid.Column="1" Grid.Row="1" Command="{Binding SignUpCommand}" Margin="125,284,331,70">SIGN UP</Button>
+        <Button Style="{StaticResource Buttons}" BorderBrush="LightGreen" Grid.Column="1" Grid.Row="1"  Command="{Binding SignUpCommand}" Margin="125,284,331,70">SIGN UP</Button>
 
         <!-- Login -->
         <Label Style="{StaticResource HackerLabel}" Grid.Column="1" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="334,24,123,324" RenderTransformOrigin="0.646,2.517" Content="Login" Grid.Row="1" Width="114" FontSize="20" Height="38"/>
@@ -47,6 +47,6 @@
         <Label Style="{StaticResource HackerLabel}" Grid.Column="1" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="334,184,123,178" RenderTransformOrigin="0.646,2.517" Content="Password" Grid.Row="1" Width="114"/>
         <TextBox Style="{StaticResource ResourceKey=HackerBox}" BorderBrush="LightGreen" Background="Black" Grid.Column="1" Margin="333,208,124,146" Grid.Row="1" />
         <!-- Login button-->
-        <Button Style="{StaticResource Buttons}" BorderBrush="LightGreen" Grid.Column="1" Grid.Row="1" Command="{Binding LoginCommand}" Margin="334,284,122,70">LOG IN</Button>
+        <Button Style="{StaticResource Buttons}" BorderBrush="LightGreen" Grid.Column="1" Grid.Row="1" Click="LoginButton" Command="{Binding LoginCommand}" Margin="334,284,122,70">LOG IN</Button>
     </Grid>
 </UserControl>

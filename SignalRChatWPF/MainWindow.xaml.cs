@@ -45,5 +45,10 @@ namespace SignalRChatWPF
         {
             chatVM.ChatMessageToSend = "";
         }
+
+        private void LoginButton(object sender, RoutedEventArgs e)
+        {
+            MainWindowVM vm = new MainWindowVM(1);
+        }
     }
 }

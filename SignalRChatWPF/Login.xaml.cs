@@ -25,9 +25,11 @@ namespace SignalRChatWPF
             InitializeComponent();
         }
 
-        private void Button_Click()
-        {
 
+        private void LoginButton(object sender, RoutedEventArgs e)
+        {
+            MainWindowVM vm = new MainWindowVM(1);
         }
+
     }
 }

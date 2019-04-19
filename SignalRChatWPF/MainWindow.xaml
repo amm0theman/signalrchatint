@@ -9,7 +9,6 @@
         Title="SignalR Chat Program" Height="450" Width="800"
         Closing="Window_Closing"
         FontFamily="Courier New">
-
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*">
@@ -55,9 +54,37 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <DockPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="5,7,10,7">
-            <TextBox Style="{StaticResource ValidatingControl}" Background="Black" BorderBrush="LightGreen" Foreground="LightGreen" Text="{Binding ChatMessageToSend, Mode=TwoWay, ValidatesOnNotifyDataErrors=True, FallbackValue='Ola'}" TextChanged="TextBox_TextChanged"/>
+            <TextBox Style="{StaticResource ValidatingControl}" Background="Black" BorderBrush="LightGreen" Foreground="LightGreen" Text="{Binding ChatMessageToSend, Mode=TwoWay, ValidatesOnNotifyDataErrors=True}" TextChanged="TextBox_TextChanged"/>
         </DockPanel>
         <Button Style="{StaticResource Buttons}" BorderBrush="Black" Grid.Column="2" Grid.Row="2" Command="{Binding MessageCommand}">Send Message</Button>
 
     </Grid>
+    <!--<Window.DataContext>
+        <local:MainWindowVM />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate x:Key="LoginTemplate" DataType="{x:Type local:MainWindowVM}">
+            <local:Login />
+        </DataTemplate>
+
+        <DataTemplate x:Key="ChatWindowTemplate" DataType="{x:Type local:MainWindowVM}">
+            <local:ChatWindow />
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <ContentControl Content="{Binding }">
+            <ContentControl.Style>
+                <Style TargetType="{x:Type ContentControl}">
+                    <Setter Property="ContentTemplate" Value="{StaticResource LoginTemplate}" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding SwitchView}" Value="1">
+                            <Setter Property="ContentTemplate" Value="{StaticResource ChatWindowTemplate}" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ContentControl.Style>
+        </ContentControl>
+    </Grid>-->
 </Window>

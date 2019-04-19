@@ -8,13 +8,18 @@ namespace SignalRChatWPF
     {
         public int SwitchView
         {
-            get;
             set;
+            get;
         }
 
         public MainWindowVM()
         {
-            SwitchView = 0;
+            SwitchView = 1;                
+        }
+
+        public MainWindowVM(int switchview)
+        {
+            SwitchView = switchview;
         }
     }
 }
