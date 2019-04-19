@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SignalRChat.Aggregates;
+using System;
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace SignalRChat
         IDispatcher UIDispatcher;
         ObservableCollection<string> chatLog = new ObservableCollection<string>();
         ObservableCollection<string> users = new ObservableCollection<string>();
-        string chatMessageToSend = "Enter message here!";
+        string chatMessageToSend = "";
         ObservableCollection<string> loginLog = new ObservableCollection<string>();
 
         #region properties
@@ -152,8 +153,8 @@ namespace SignalRChat
             clientHubProxy.UsernamesReceived += receivedUsernames;
             clientHubProxy.LocalUsernameReceived += receivedLocalUser;
             clientHubProxy.UsernameReceivedDisconnect += removeUser;
-
-            MessageCommand = new SendCommand(new Action<object>((a) => sendMessage(LocalUser, ChatMessageToSend)));
+            var b = new Parcel(new Entities.Message("TestUseBoy"), new User(new Value_Objects.Username("NuttyBoi"), new Value_Objects.Password("")));
+            MessageCommand = new SendCommand(new Action<object>((a) => sendMessage(new Parcel(new Entities.Message(ChatMessageToSend), new User(new Value_Objects.Username(LocalUser), new Value_Objects.Password(LocalUser))))));
             GetLogCommand = new SendCommand(new Action<object>((a) => getLog()));
 
             //Login action so to speak
@@ -211,9 +212,9 @@ namespace SignalRChat
             clientHubProxy.getLog();
         }
 
-        public void sendMessage(string user, string message)
+        public void sendMessage(Parcel message)
         {
-            clientHubProxy.sendMessage(user, message);
+            clientHubProxy.sendMessage(message);
             ChatMessageToSend = "";
         }
 

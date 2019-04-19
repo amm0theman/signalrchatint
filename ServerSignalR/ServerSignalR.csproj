@@ -134,5 +134,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SignalRChat\SignalRChat.csproj">
+      <Project>{8b4b185e-e6b6-42cc-be5a-bba4578bc1c8}</Project>
+      <Name>SignalRChat</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

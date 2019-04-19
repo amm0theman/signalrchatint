@@ -29,6 +29,7 @@ namespace ServerSignalR
     }
     public class Startup
     {
+        //Globals for the program. These are bad and will be removed when database is added. TODO: Add database remove these lines
         public ObservableCollection<string> connectedUsers = new ObservableCollection<string>();
         public ObservableCollection<string> chatLog = new ObservableCollection<string>();
 
@@ -37,7 +38,8 @@ namespace ServerSignalR
             app.UseCors(CorsOptions.AllowAll);
             app.Properties["host.AppMode"] = "development";
             app.UseErrorPage(new Microsoft.Owin.Diagnostics.ErrorPageOptions { ShowExceptionDetails = true });
-            //Register deps.
+
+            //Register dependencies
             GlobalHost.DependencyResolver.Register(
                 typeof(ChatHub),
                 () => new ChatHub(ref connectedUsers, ref chatLog));

@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Web;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Client;
+using SignalRChat.Aggregates;
 
 namespace SignalRChat
 {
@@ -31,9 +32,9 @@ namespace SignalRChat
         {
             hubConnection = new HubConnection(url);
             chatHubProxy = hubConnection.CreateHubProxy(hubType);
-            chatHubProxy.On("receivedMessage", (string user, string message) =>
+            chatHubProxy.On("receivedMessage", (Parcel message) =>
             {
-                OnMessageReceived(user, message);
+                OnMessageReceived(message);
             });
             chatHubProxy.On("receivedUsername", (string username) =>
             {
@@ -63,10 +64,10 @@ namespace SignalRChat
                 LocalUsernameReceived(this, new MessageEventArgs() { User = username, Message = "" });
         }
 
-        protected virtual void OnMessageReceived(string user, string message)
+        protected virtual void OnMessageReceived(Parcel message)
         {
             if (MessageReceived != null)
-                MessageReceived(this, new MessageEventArgs() { User = user, Message = message });
+                MessageReceived(this, new MessageEventArgs() { User = message.Owner.UserName.username, Message = message.message.MessageBody });
         }
 
         protected virtual void OnUsernameReceived(string username)
@@ -103,9 +104,9 @@ namespace SignalRChat
             hubConnection.Start().Wait();
         }
 
-        public void sendMessage(string user, string message)
+        public void sendMessage(Parcel message)
         {
-            chatHubProxy.Invoke("sendMessage", user, message);
+            chatHubProxy.Invoke("sendMessage", message);
         }
 
         public void getLog()
@@ -140,7 +141,7 @@ namespace SignalRChat
     {
         void setName();
         void startHub();
-        void sendMessage(string user, string message);
+        void sendMessage(Parcel message);
         void getLog();
         void CloseConnection();
         event EventHandler<MessageEventArgs> MessageReceived;
