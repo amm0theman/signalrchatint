@@ -6,6 +6,9 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SignalRChat.Entities.Validation;
+using SignalRChat.Value_Objects;
+using SignalRChat.Aggregates;
 
 namespace ServerSignalR
 {
@@ -54,10 +57,11 @@ namespace ServerSignalR
         }
 
         //When they send a message
-        public void sendMessage(string user, string message)
+        public void sendMessage(Parcel message)
         {
-            Clients.All.receivedMessage(user, message);
-            chatLog.Add(user + ": " + message);
+            // TODO: Validate Message
+            Clients.All.receivedMessage(message);
+            chatLog.Add(message.Owner.ToString() + ": " + message);
         }
 
         //When log requested

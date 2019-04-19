@@ -1,5 +1,0 @@
-C:\Users\amm0t\source\repos\SignalRChat\SignalRServer\bin\Debug\netstandard2.0\SignalRServer.deps.json
-C:\Users\amm0t\source\repos\SignalRChat\SignalRServer\bin\Debug\netstandard2.0\SignalRServer.dll
-C:\Users\amm0t\source\repos\SignalRChat\SignalRServer\obj\Debug\netstandard2.0\SignalRServer.csproj.CoreCompileInputs.cache
-C:\Users\amm0t\source\repos\SignalRChat\SignalRServer\obj\Debug\netstandard2.0\SignalRServer.AssemblyInfoInputs.cache
-C:\Users\amm0t\source\repos\SignalRChat\SignalRServer\obj\Debug\netstandard2.0\SignalRServer.AssemblyInfo.cs
