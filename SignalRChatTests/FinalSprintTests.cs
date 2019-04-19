@@ -8,6 +8,9 @@ using Moq;
 using SignalRChat;
 using ServerSignalR;
 using System.Data.SqlClient;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Data;
 
 namespace SignalRChatTests
 {
@@ -34,9 +37,8 @@ namespace SignalRChatTests
 
         Mock<IDispatcher> dispatcher;
         Mock<IClientHubProxy> hubproxy;
-       
+        CreateUser createUser = new CreateUser();
         ChatVM chatVM;
-        CreateUser u = new CreateUser();
         
 
         [SetUp]
@@ -125,9 +127,11 @@ namespace SignalRChatTests
         }
 
         [Test]
-        public void addUserTest()
+        public void testAddUser()
         {
-            u.Add_User("hi", "there");
+            CreateUser u = new CreateUser();
+            createUser.Add_User("Hello", "there!");
+            Assert.IsTrue(true);
         }
     }
 }

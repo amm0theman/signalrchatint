@@ -135,3 +135,5 @@ C:\Users\nathan.hebert\source\repos\signalrchatint\SignalRChatTests\bin\Debug\ne
 C:\Users\nathan.hebert\source\repos\signalrchatint\SignalRChatTests\bin\Debug\netcoreapp2.1\Microsoft.Owin.Diagnostics.xml
 C:\Users\nathan.hebert\source\repos\signalrchatint\SignalRChatTests\bin\Debug\netcoreapp2.1\Microsoft.Owin.Security.xml
 C:\Users\nathan.hebert\source\repos\signalrchatint\SignalRChatTests\obj\Debug\netcoreapp2.1\SignalRChatTests.csproj.CopyComplete
+C:\Users\nathan.hebert\source\repos\signalrchatint\SignalRChatTests\bin\Debug\netcoreapp2.1\BCrypt.Net.dll
+C:\Users\nathan.hebert\source\repos\signalrchatint\SignalRChatTests\bin\Debug\netcoreapp2.1\BCrypt.Net.xml

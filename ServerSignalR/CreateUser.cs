@@ -25,8 +25,10 @@ namespace ServerSignalR
             sUName = sUName.Replace("'", "''");
             sPword = sPword.Replace("'", "''");
 
-            
-            string sSQL = "INSERT INTO dbo.Users ([uname],[pword]) VALUES('" + sUName + "','" + sPword + "')";
+            string hashedUname = EncryptUser.HashUsernamePassword(sUName);
+            string hashedPword = EncryptUser.HashUsernamePassword(sPword);
+
+            string sSQL = "INSERT INTO dbo.Users ([uname],[pword]) VALUES('" + hashedUname + "','" + hashedPword + "')";
 
             SqlConnection cn = OpenDBConnection();
 

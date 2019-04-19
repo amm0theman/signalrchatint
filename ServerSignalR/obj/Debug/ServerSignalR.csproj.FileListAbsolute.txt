@@ -108,3 +108,5 @@ C:\Users\nathan.hebert\source\repos\signalrchatint\ServerSignalR\obj\Debug\Serve
 C:\Users\nathan.hebert\source\repos\signalrchatint\ServerSignalR\obj\Debug\ServerSignalR.csproj.CopyComplete
 C:\Users\nathan.hebert\source\repos\signalrchatint\ServerSignalR\obj\Debug\ServerSignalR.exe
 C:\Users\nathan.hebert\source\repos\signalrchatint\ServerSignalR\obj\Debug\ServerSignalR.pdb
+C:\Users\nathan.hebert\source\repos\signalrchatint\ServerSignalR\bin\Debug\BCrypt.Net.dll
+C:\Users\nathan.hebert\source\repos\signalrchatint\ServerSignalR\bin\Debug\BCrypt.Net.xml
