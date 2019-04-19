@@ -32,7 +32,6 @@ namespace ServerSignalR
 
             SqlCommand cmd = new SqlCommand(sSQL, cn);
             cmd.ExecuteNonQuery();
-
         }
 
         public static void CloseDBConnection()

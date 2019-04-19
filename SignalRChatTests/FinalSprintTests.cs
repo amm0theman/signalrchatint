@@ -34,6 +34,7 @@ namespace SignalRChatTests
 
         Mock<IDispatcher> dispatcher;
         Mock<IClientHubProxy> hubproxy;
+       
         ChatVM chatVM;
         CreateUser u = new CreateUser();
         
@@ -126,7 +127,6 @@ namespace SignalRChatTests
         [Test]
         public void addUserTest()
         {
-            SqlConnection cn = CreateUser.OpenDBConnection;
             u.Add_User("hi", "there");
         }
     }
