@@ -1641,6 +1641,9 @@
       },
       "ServerSignalR/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "SignalRChat": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ServerSignalR.dll": {}
         },

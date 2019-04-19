@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SignalRChat.Aggregates;
 
 namespace SignalRChat.Entities.Validation
 {
@@ -8,36 +9,41 @@ namespace SignalRChat.Entities.Validation
     /// Class for validating messages origin and size, for use on client and server
     /// Data should be validated whenever it crosses a barrier of trust. For example client to server and vice versa
     /// </summary>
-    public class DataValidator
+    public static class DataValidator
     {
-        public DataValidator()
+        //check to see if the ip origin is valid
+        public static bool isOriginValid(User user, List<User> users)
         {
+            bool isExistingUser = false;
 
+            foreach (User i in users)
+            {
+                if(i.getIdentity() == user.getIdentity())
+                {
+                    isExistingUser = true;
+                    break;
+                }
+            }
+
+            return isExistingUser;
         }
 
-        public static string validateMessage(string message)
+        //Validate the body of a message
+        public static Tuple<string, bool> validateMessage(string message)
         {
             if (isValidMessage(message))
             {
-                return message;
+                return new Tuple<string, bool>(message, true);
             }
 
-
-
-            return message;
+            return new Tuple<string, bool>("Invalid Message", false);
         }
 
         //Ensures message is proper format, sanitized, etc.
         private static bool isValidMessage(string message)
         {
-            //Check for origin of data
-            if (!isValidOrigin())
-            {
-                return false;
-            }
-
             //No messages allowed past 500 characters
-            if (message.Length > 500)
+            if (!isProperSize(message))
             {
                 return false;
             }
@@ -63,6 +69,17 @@ namespace SignalRChat.Entities.Validation
             return true;
         }
 
+        //checks message length
+        private static bool isProperSize(string message)
+        {
+            if (message.Length > 1000)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
         //checks for xaml expansion. However, this doesn't seem to be necessary for the program. When xaml expansion was tried to be input to the message box, nothing happened. It just displayed it as a string.
         private static bool containsLexicalExpansion(string message)
         {
@@ -77,12 +94,6 @@ namespace SignalRChat.Entities.Validation
 
         //would check for semantic correctness, but again it is a message
         private static bool isSemanticallyCorrect()
-        {
-            return true;
-        }
-
-        //would 
-        private static bool isValidOrigin()
         {
             return true;
         }

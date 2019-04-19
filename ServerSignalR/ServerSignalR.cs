@@ -5,7 +5,6 @@ using Owin;
 using Microsoft.Owin.Cors;
 using Microsoft.Owin;
 using System.Collections.ObjectModel;
-//using SignalRChat.Entities.Validation;
 
 [assembly: OwinStartup(typeof(ServerSignalR.Startup))]
 
@@ -44,8 +43,6 @@ namespace ServerSignalR
             GlobalHost.DependencyResolver.Register(
                 typeof(ChatHub),
                 () => new ChatHub(ref connectedUsers, ref chatLog));
-
-          
 
             var hubConfiguration = new HubConfiguration
             {
