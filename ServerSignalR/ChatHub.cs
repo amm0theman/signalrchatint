@@ -64,6 +64,20 @@ namespace ServerSignalR
             chatLog.Add(message.Owner.ToString() + ": " + message);
         }
 
+        public void loginUser(string user, string pass)
+        {
+            //get user and password
+            //Check to see if the user and passowrd match the encrypted version
+            //If so, login, else error
+        }
+
+        public void signupUser(string user, string pass)
+        {
+            //Check to see if there are no users like this
+            //Send encrypted user info to the server
+            //Login command
+        }
+
         //When log requested
         public void getLog()
         {

@@ -114,6 +114,16 @@ namespace SignalRChat
             chatHubProxy.Invoke("getLog");
         }
 
+        public void getLogin(string user, string pass)
+        {
+            chatHubProxy.Invoke("loginUser", user, pass);
+        }
+
+        public void getSignup(string user, string pass)
+        {
+            chatHubProxy.Invoke("signupUser", user, pass);
+        }
+
         public void CloseConnection()
         {
             hubConnection.Stop();

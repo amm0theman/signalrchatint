@@ -50,6 +50,6 @@
         <TextBox Style="{StaticResource ResourceKey=HackerBox}" BorderBrush="LightGreen" Background="Black" Grid.Column="1" Margin="333,208,124,146" Grid.Row="1" />
         
         <!-- Login button-->
-        <Button Style="{StaticResource Buttons}" BorderBrush="LightGreen" Grid.Column="1" Grid.Row="1" Click="LoginButton" Command="{Binding LoginCommand}" Margin="334,284,122,70">LOG IN</Button>
+        <Button Style="{StaticResource Buttons}" BorderBrush="LightGreen" Grid.Column="1" Grid.Row="1" Command="{Binding LoginCommand}" Margin="334,284,122,70">LOG IN</Button>
     </Grid>
 </UserControl>

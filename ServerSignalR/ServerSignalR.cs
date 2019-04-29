@@ -19,6 +19,8 @@ namespace ServerSignalR
             // use http://*:8080 to bind to all addresses. 
             // See http://msdn.microsoft.com/library/system.net.httplistener.aspx 
             // for more information.
+            CreateDB db = new CreateDB();
+
             string url = "http://localhost:8080";
             using (WebApp.Start(url))
             {
