@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:SignalRChatWPF"
         xmlns:shared="clr-namespace:SignalRChat;assembly=SignalRChat"
         mc:Ignorable="d"
-        Height="450" Width="800"
-
-        FontFamily="Courier New">
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Stretch"
+        FontFamily="Courier New" d:DesignWidth="800" d:DesignHeight="450">
 
     <Grid Background="Black">
         <Grid.ColumnDefinitions>

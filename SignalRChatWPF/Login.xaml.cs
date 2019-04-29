@@ -28,8 +28,14 @@ namespace SignalRChatWPF
 
         private void LoginButton(object sender, RoutedEventArgs e)
         {
-            MainWindowVM vm = new MainWindowVM(1);
+            //Login button sends the user info to the server to be checked, if confirmed, move to login
+            //Else stay and error message
+            
         }
 
+        private void SignUpButton(object sender, RoutedCommand e)
+        {
+            //If send data to server to be saved and encrypted, log in user, then 
+        }
     }
 }
