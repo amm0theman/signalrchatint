@@ -261,11 +261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj",
+      "projectUniqueName": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChat\\SignalRChat.csproj",
       "projectName": "SignalRChat",
-      "projectPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj",
+      "projectPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChat\\SignalRChat.csproj",
       "packagesPath": "C:\\Users\\nathan.hebert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChat\\obj\\",
+      "outputPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

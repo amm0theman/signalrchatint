@@ -5830,11 +5830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChatTests\\SignalRChatTests.csproj",
+      "projectUniqueName": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChatTests\\SignalRChatTests.csproj",
       "projectName": "SignalRChatTests",
-      "projectPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChatTests\\SignalRChatTests.csproj",
+      "projectPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChatTests\\SignalRChatTests.csproj",
       "packagesPath": "C:\\Users\\nathan.hebert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChatTests\\obj\\",
+      "outputPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChatTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -5855,14 +5855,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\ServerSignalR\\ServerSignalR.csproj": {
-              "projectPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\ServerSignalR\\ServerSignalR.csproj"
+            "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\ServerSignalR\\ServerSignalR.csproj": {
+              "projectPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\ServerSignalR\\ServerSignalR.csproj"
             },
-            "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChatWPF\\SignalRChatWPF.csproj": {
-              "projectPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChatWPF\\SignalRChatWPF.csproj"
+            "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChatWPF\\SignalRChatWPF.csproj": {
+              "projectPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChatWPF\\SignalRChatWPF.csproj"
             },
-            "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj": {
-              "projectPath": "C:\\Users\\nathan.hebert\\source\\repos\\signalrchatint\\SignalRChat\\SignalRChat.csproj"
+            "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChat\\SignalRChat.csproj": {
+              "projectPath": "C:\\Users\\nathan.hebert\\Source\\Repos\\signalrchatint2\\SignalRChat\\SignalRChat.csproj"
             }
           }
         }
