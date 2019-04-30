@@ -27,6 +27,8 @@ namespace SignalRChat
         public event EventHandler<LogEventArgs> LogReceived;
         public event EventHandler<MessageEventArgs> LocalUsernameReceived;
         public event EventHandler<MessageEventArgs> UsernameReceivedDisconnect;
+        public event EventHandler<LoggedEventArgs> LoggedIn;
+        public event EventHandler<SignedEventArgs> SignedUp;
 
         public ClientHubProxy(string url, string hubType)
         {
@@ -56,7 +58,34 @@ namespace SignalRChat
             {
                 OnReceivedLocalUsername(username);
             });
+            chatHubProxy.On("getLogin", (bool loggedIn) =>
+            {
+                OnLoggedIn(loggedIn);
+            });
+            chatHubProxy.On("getSignup", (bool signedUp) =>
+            {
+                OnSignedUp(signedUp);
+            });
         }
+
+        protected virtual void OnLoggedIn(bool loggedIn)
+        {
+            if (loggedIn != null)
+            {
+                LoggedIn(this, new LoggedEventArgs() { status = loggedIn });
+                
+            }
+        }
+
+        protected virtual void OnSignedUp(bool signedUp)
+        {
+            if (signedUp != null)
+            {
+                SignedUp(this, new SignedEventArgs() { status = signedUp });
+
+            }
+        }
+
 
         protected virtual void OnReceivedLocalUsername(string username)
         {
@@ -114,14 +143,14 @@ namespace SignalRChat
             chatHubProxy.Invoke("getLog");
         }
 
-        public void getLogin(string user, string pass)
+        public void getLogin(User user)
         {
-            chatHubProxy.Invoke("loginUser", user, pass);
+            chatHubProxy.Invoke("getLogin", user);
         }
 
-        public void getSignup(string user, string pass)
+        public void getSignUp(User user)
         {
-            chatHubProxy.Invoke("signupUser", user, pass);
+            chatHubProxy.Invoke("getSignup", user);
         }
 
         public void CloseConnection()
@@ -129,6 +158,16 @@ namespace SignalRChat
             hubConnection.Stop();
             hubConnection.Dispose();
         }
+    }
+
+    public class SignedEventArgs : EventArgs
+    {
+        public bool status { get; set; }
+    }
+
+    public class LoggedEventArgs : EventArgs
+    {
+        public bool status { get; set; }
     }
 
     public class MessageEventArgs : EventArgs
@@ -154,11 +193,15 @@ namespace SignalRChat
         void sendMessage(Parcel message);
         void getLog();
         void CloseConnection();
+        void getLogin(User user);
+        void getSignUp(User user);
         event EventHandler<MessageEventArgs> MessageReceived;
         event EventHandler<MessageEventArgs> UsernameReceived;
         event EventHandler<LogEventArgs> LogReceived;
         event EventHandler<UsersArgs> UsernamesReceived;
         event EventHandler<MessageEventArgs> LocalUsernameReceived;
         event EventHandler<MessageEventArgs> UsernameReceivedDisconnect;
+        event EventHandler<LoggedEventArgs> LoggedIn;
+        event EventHandler<SignedEventArgs> SignedUp;
     }
 }

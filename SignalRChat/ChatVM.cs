@@ -22,7 +22,7 @@ namespace SignalRChat
 
         #region properties
         private ICommand _messageCommand;
-        public ICommand MessageCommand 
+        public ICommand MessageCommand
         {
             get
             {
@@ -33,6 +33,34 @@ namespace SignalRChat
                 _messageCommand = value;
             }
         }
+
+        private ICommand _LoginCommand;
+        public ICommand LoginCommand
+        {
+            get
+            {
+                return _LoginCommand;
+            }
+            set
+            {
+                _LoginCommand = value;
+            }
+        }
+
+        private ICommand _SignUpCommand;
+        public ICommand SignUpCommand
+        {
+            get
+            {
+                return _SignUpCommand;
+            }
+            set
+            {
+                _SignUpCommand = value;
+            }
+        }
+
+    
 
         private ICommand _getLogCommand;
         public ICommand GetLogCommand
@@ -120,6 +148,46 @@ namespace SignalRChat
             }
         }
 
+        private string userLogin;
+        public string UserLogin
+        {
+            get
+            {
+                return userLogin;
+            }
+
+            set
+            {
+                if (value == userLogin)
+                    return;
+                if (isChatValid(value))
+                {
+                    userLogin = value;
+                }
+                NotifyPropertyChanged();
+            }
+        }
+
+        private string userPass;
+        public string UserPass
+        {
+            get
+            {
+                return userPass;
+            }
+
+            set
+            {
+                if (value == userPass)
+                    return;
+                if (isChatValid(value))
+                {
+                    userPass = value;
+                }
+                NotifyPropertyChanged();
+            }
+        }
+
         public ObservableCollection<string> LoginLog
         {
             get
@@ -156,7 +224,9 @@ namespace SignalRChat
             var b = new Parcel(new Entities.Message("TestUseBoy"), new User(new Value_Objects.Username("NuttyBoi"), new Value_Objects.Password("")));
             MessageCommand = new SendCommand(new Action<object>((a) => sendMessage(new Parcel(new Entities.Message(ChatMessageToSend), new User(new Value_Objects.Username(LocalUser), new Value_Objects.Password(LocalUser))))));
             GetLogCommand = new SendCommand(new Action<object>((a) => getLog()));
-
+            LoginCommand = new LoginCommand(new Action<object>((a) => getLogin(new User(new Value_Objects.Username(userLogin), new Value_Objects.Password(userPass)))));
+            SignUpCommand = new SignUpCommand(new Action<object>((a) => getSignUp(new User(new Value_Objects.Username(LocalUser), new Value_Objects.Password(LocalUser)))));
+            
             //Login action so to speak
             setName();            
         }
@@ -210,6 +280,16 @@ namespace SignalRChat
         public void getLog()
         {
             clientHubProxy.getLog();
+        }
+
+        public void getLogin(User user)
+        {
+            clientHubProxy.getLogin(user);
+        }
+
+        public void getSignUp(User user)
+        {
+            clientHubProxy.getSignUp(user);
         }
 
         public void sendMessage(Parcel message)

@@ -9,14 +9,17 @@ namespace ServerSignalR
 {
     public class EncryptUser
     {
-        private static string GetRandomSalt()
+        static string salt;
+
+        public static string GetRandomSalt()
         {
             return BCrypt.Net.BCrypt.GenerateSalt(12);
         }
 
         public static string HashUsernamePassword(string password)
         {
-            return BCrypt.Net.BCrypt.HashPassword(password, GetRandomSalt());
+            salt = GetRandomSalt();
+            return BCrypt.Net.BCrypt.HashPassword(password, salt);
         }
 
         public static bool ValidateUsernamePassword(string password, string correctHash)

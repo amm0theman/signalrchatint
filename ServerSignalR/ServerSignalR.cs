@@ -46,6 +46,7 @@ namespace ServerSignalR
                 typeof(ChatHub),
                 () => new ChatHub(ref connectedUsers, ref chatLog));
 
+
             var hubConfiguration = new HubConfiguration
             {
                 EnableJSONP = true,

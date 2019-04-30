@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using SignalRChat.Entities.Validation;
 using SignalRChat.Value_Objects;
 using SignalRChat.Aggregates;
+using System.Data.SQLite;
 
 namespace ServerSignalR
 {
@@ -17,6 +18,7 @@ namespace ServerSignalR
     {
         ObservableCollection<string> connectedUsers;
         ObservableCollection<string> chatLog;
+        
 
         public ChatHub(ref ObservableCollection<string> _connectedUsers, ref ObservableCollection<string> _chatLog)
         {
@@ -64,18 +66,37 @@ namespace ServerSignalR
             chatLog.Add(message.Owner.ToString() + ": " + message);
         }
 
-        public void loginUser(string user, string pass)
+        public void getLogin(User user)
         {
-            //get user and password
-            //Check to see if the user and passowrd match the encrypted version
+            
+            bool matched = CreateDB.LoginUser(user.UserName.ToString(), user.PassWord.ToString());
+
             //If so, login, else error
+            if (matched)
+            {
+                Clients.Caller.confirmLogin(true);
+            }
+            else
+            {
+                Clients.Caller.confirmLogin(false);
+            }
         }
 
-        public void signupUser(string user, string pass)
+        public void getSignup(User user)
         {
             //Check to see if there are no users like this
             //Send encrypted user info to the server
-            //Login command
+            //Login command\
+            bool matched = CreateDB.SignUpUser(user.UserName.ToString(), user.PassWord.ToString());
+
+            if (matched)
+            {
+                Clients.Caller.confirmSignup(true);
+            }
+            else
+            {
+                Clients.Caller.confirmSignup(false);
+            }
         }
 
         //When log requested
