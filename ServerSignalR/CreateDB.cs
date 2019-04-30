@@ -47,7 +47,6 @@ namespace ServerSignalR
 
         static public bool SignUpUser(string user, string pass)
         {
-            EncryptUser.GetRandomSalt();
             sqlconnect = new SQLiteConnection("Data Source=HackerChatDB.sqlite;Version=3");
             sqlconnect.Open();
             int id = 0;
