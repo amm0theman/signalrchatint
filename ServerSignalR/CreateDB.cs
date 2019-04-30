@@ -25,20 +25,6 @@ namespace ServerSignalR
             command = new SQLiteCommand(sql2, sqlconnect);
             //command.ExecuteNonQuery();
         }      
-        
-        public void CreateUser(string sUName, string sPword)
-        {
-            sUName = sUName.Replace("'", "''");
-            sPword = sPword.Replace("'", "''");
-
-            string hashedUname = EncryptUser.HashUsernamePassword(sUName);
-            string hashedPword = EncryptUser.HashUsernamePassword(sPword);
-
-            string sSQL = "INSERT INTO dbo.Users ([uname],[pword]) VALUES('" + hashedUname + "','" + hashedPword + "')";
-
-            SQLiteCommand cmd = new SQLiteCommand(sSQL);
-            cmd.ExecuteNonQuery();
-        }
 
         static public bool LoginUser(string user, string pass)
         {

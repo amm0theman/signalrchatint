@@ -11,7 +11,7 @@ namespace ServerSignalR
     {
         static string salt;
 
-        public static string GetRandomSalt()
+        private static string GetRandomSalt()
         {
             return BCrypt.Net.BCrypt.GenerateSalt(12);
         }
